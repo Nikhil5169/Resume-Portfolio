@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e3f2fd; /* Light grey-blue background */
+            color: #212529; /* Dark text for readability */
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            color: #6c757d;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .tab-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .tab-content ul li {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            color: #6c757d;
+            font-size: 1rem;
+        }
+
+        .card {
+            border: none;
+            margin-bottom: 20px;
+            background-color: white; /* White background for cards */
+        }
+
+        .card-header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .card-header-about {
+            background-color: #007bff;
+        }
+
+        .card-header-education {
+            background-color: #28a745;
+        }
+
+        .card-header-skills {
+            background-color: #17a2b8;
+        }
+
+        .card-header-languages {
+            background-color: #ffc107;
+        }
+
+        .card-header-projects {
+            background-color: #dc3545;
+        }
+
+        .card-header-awards {
+            background-color: #6f42c1;
+        }
+
+        .card-header-interests {
+            background-color: #fd7e14;
+        }
+
+        .card-header-certificates {
+            background-color: #20c997;
+        }
+
+        .card-header-achievements {
+            background-color: #6c757d;
+        }
+
+        .nav-tabs .nav-item {
+            margin-bottom: 10px;
+        }
+
+        .nav-tabs .nav-link {
+            border: 1px solid transparent;
+            border-radius: 0.25rem;
+            margin-right: 5px;
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .project-card,
+        .certificate-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card h5,
+        .certificate-card h5 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+
+        .project-card p,
+        .certificate-card p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center mt-5">
+            <h1>Madakasira Ramesh Gari Nikhil</h1>
+            <p>Web Developer</p>
+        </header>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="education-tab" data-toggle="tab" href="#education" role="tab">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="skills-tab" data-toggle="tab" href="#skills" role="tab">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="languages-tab" data-toggle="tab" href="#languages" role="tab">Languages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="awards-tab" data-toggle="tab" href="#awards" role="tab">Awards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="interests-tab" data-toggle="tab" href="#interests" role="tab">Interests</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="certificates-tab" data-toggle="tab" href="#certificates" role="tab">Certificates</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="achievements-tab" data-toggle="tab" href="#achievements" role="tab">Achievements</a>
+            </li>
+        </ul>
+        <div class="tab-content mt-5" id="myTabContent">
+            <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+                <div class="card">
+                    <div class="card-header card-header-about">About Me</div>
+                    <div class="card-body">
+                        <p>I am a dedicated student who is proficient in a variety of
+                            programming languages and frameworks. With a keen
+                            ability to communicate effectively, I excel in both team
+                            collaborations and client interactions. My proactive
+                            approach to work allows me to tackle challenges with
+                            ease, while my adaptability ensures I can navigate
+                            evolving project requirements. Alongside my technical
+                            expertise, I bring a lighthearted attitude and a pleasant
+                            demeanor to every coding endeavor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                <div class="card">
+                    <div class="card-header card-header-education">Education</div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Bachelor of Technology</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Jain University</h6>
+                        <p class="card-text">2021 – present | Bengaluru, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                <div class="card">
+                    <div class="card-header card-header-skills">Skills</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check"></i> HTML</li>
+                            <li><i class="fas fa-check"></i> CSS</li>
+                            <li><i class="fas fa-check"></i> JavaScript</li>
+                            <li><i class="fas fa-check"></i> Python</li>
+                            <li><i class="fas fa-check"></i> Java</li>
+                            <li><i class="fas fa-check"></i> Data Structures in C</li>
+                            <li><i class="fas fa-check"></i> SQL,Database</li>
+                            <li><i class="fas fa-check"></i> OOPS</li>
+                            <li><i class="fas fa-check"></i> Problem Solving</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="languages" role="tabpanel" aria-labelledby="languages-tab">
+                <div class="card">
+                    <div class="card-header card-header-languages">Languages</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check"></i> English</li>
+                            <li><i class="fas fa-check"></i> Telugu</li>
+                            <li><i class="fas fa-check"></i> Kannada</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                <div class="project-card">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text">Drebin
+                        September 2022 – May 2023
+                        Drebin is an anti-virus software it can present in android 
+                       systemidea this is our second year project in b.tech.<a href="https://www.linkedin.com/posts/madakasira-rameshgarinikhil-40721426b_project-on-drebin-activity-7181618146515017728-xRUZ?utm_source=share&utm_medium=member_android">View Project</a></p>
+                </div>
+                <div class="project-card">
+                    <h5 class="card-title">Project 2</h5>
+                    <p class="card-text">July 2023 – August 2023
+                        Marketing focuses on moving the product from the
+                        company to the market (through product launches and
+                        awareness campaigns), while sales focuses on moving
+                        the product from the market to the customer. Sales
+                        focuses on the needs of the company, while marketing
+                        focuses on the needs of the market. <a href="https://in.docs.wps.com/l/sIBXW5I-OAY6Xzq4G">View Project</a></p>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="awards-tab">
+                <div class="card">
+                    <div class="card-header card-header-awards">Awards</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-trophy"></i> Language Proficiency, KESHAVA REDDY SCHOOL
+                                2018</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="interests" role="tabpanel" aria-labelledby="interests-tab">
+                <div class="card">
+                    <div class="card-header card-header-interests">Interests</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-heart"></i> Playing Cricket</li>
+                            <li><i class="fas fa-heart"></i> Listening Music</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="certificates" role="tabpanel" aria-labelledby="certificates-tab">
+                <div class="certificate-card">
+                    <h5 class="card-title">Certificate 1</h5>
+                    <p class="card-text">Data Structures in Great Learning <a href="https://olympus1.mygreatlearning.com/course_certificate/XPYFLLPC">View Certificate</a></p>
+                </div>
+                <div class="certificate-card">
+                    <h5 class="card-title">Certificate 2</h5>
+                    <p class="card-text">Python Programs in Great Learning <a href="https://www.linkedin.com/posts/madakasira-rameshgarinikhil-40721426b_python-programs-activity-7181640296290549761-zheN?utm_source=share&utm_medium=member_android">View Certificate</a></p>
+                </div>
+                <div class="certificate-card">
+                    <h5 class="card-title">Certificate 1</h5>
+                    <p class="card-text">Internship Studio <a href="https://in.docs.wps.com/l/sIJ_W5I-OAZCWzq4G">View Certificate</a></p>
+                </div>
+                <div class="certificate-card">
+                    <h5 class="card-title">Certificate 1</h5>
+                    <p class="card-text">Internship Certificate In Digital Marveled <a href="https://in.docs.wps.com/l/sIBXW5I-OAY6Xzq4G">View Certificate</a></p>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="achievements" role="tabpanel" aria-labelledby="achievements-tab">
+                <div class="card">
+                    <div class="card-header card-header-achievements">Achievements</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-medal"></i> Power BI Workshop</li>
+                            <p class="card-text">Coordinated and organized a event on Power BI 
+                                workshop catered to students, imparting practical 
+                                insights into data visualization and analytics tools.</p>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center mt-5 mb-5">
+            <p>@ My Profile</p>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#myTab a').on('click', function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
